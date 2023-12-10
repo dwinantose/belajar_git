@@ -1,0 +1,24 @@
+konfigurasi awal git:
+konfigurasi alamat email:
+git config --global user.email "dwinanto.se@gmail.com"
+
+konfigurasi user git:
+git config --global user.name "dwinantose"
+
+cek apakah sudah masuk akun user git:
+git config user.name
+
+setting password, sesuai akun password akun git:
+git config --global user.password "*******"
+
+lakukan inisiasi git:
+git init
+-->di direktori kita buka git bash akan muncul folder .git (hidden)
+
+cek status git:
+git status
+-->kalau nama file warna merah berarti file tsb blm masuk staging area
+
+nambahin file ke staging area:
+git add <file>
+-->kalo nama file mengandung spasi kasih "" pada nama file
